@@ -15,7 +15,7 @@ This page only serves as an unofficial place to publish information, guides and 
 * Bo Peng's paper is accepted by ATC'18!
 
 #### Lab IT Services
-* [TCloud Moe](/moe)
+* [Moe](/moe)
 * [Lab VPN](/vpn)
 * Cloud Storage
 * In-Lab Chatting Room
