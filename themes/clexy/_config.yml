@@ -1,0 +1,11 @@
+# config
+logo: /images/logo.png
+menu:
+  home: ''
+
+# Content
+excerpt_link: Read more
+
+# Miscellaneous
+#rss: /atom.xml
+google_analytics:

@@ -1,0 +1,15 @@
+if theme.logo
+  .logo
+.bigname
+  h1
+    a(href= config.root, alt= config.title, title= config.title, itemprop='headline')= config.title
+p(itemprop='description')!= config.description
+nav(itemscope, itemtype='https://schema.org/SiteNavigationElement')
+  ul
+    each url, label in theme.menu
+      li(itemprop='name')
+        a(href= config.root + url, alt= label, title= label, itemprop='url')= label
+    li(itemprop='name')
+      a(href= "http://pgp.mit.edu/pks/lookup?search=0x7b969f3e&op=index", alt= 'gpg', title= 'gpg', itemprop='url')= 'gpg'
+      span.pagelabel |
+      a(href= config.root + "about/jiacheng_ma_cv.pdf", alt= 'cv', title= 'cv', itemprop='url')= 'cv'
