@@ -2,6 +2,6 @@
 source code of tcloud moe
 
 ```
-npm install # install dependency
+npm install 	# install dependency
+hexo d -g 	# deploy
 ```
-then use hexo to compile and deploy
